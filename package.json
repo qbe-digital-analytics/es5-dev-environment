@@ -1,0 +1,15 @@
+{
+  "name": "es5-dev-environment",
+  "version": "1.0.0",
+  "description": "A Development environment for working with JavaScript directly in browsers, which is common in tools like Webtrends and Google Tag Manager where newer features of Javascript are not supported.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-es5": "^1.5.0"
+  }
+}

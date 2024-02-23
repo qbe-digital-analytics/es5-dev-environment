@@ -1,0 +1,28 @@
+{
+  "env": {
+      "browser": true,
+      "es2021": true
+  },
+  "extends": [
+      "eslint:recommended",
+      "plugin:es5/no-es2015"
+  ],
+  "parserOptions": {
+      "ecmaVersion": 2015
+  },
+  "globals": {
+    "WT": "readonly"
+},
+  "rules": {
+      "es5/no-arrow-functions": "error",
+      "semi": ["error", "always"],
+      "quotes": ["error", "single"],
+      "no-lone-blocks": "off",
+      "space-before-blocks": "off",
+      "func-names": "off"
+  },
+  "plugins": [
+      "es5"
+  ]
+}
+
